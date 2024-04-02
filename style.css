@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 3px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.div {
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  width: fit-content;
+  border-radius: 10px;
+}
+
+@keyframes radiateGreen {
+  0% {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 20px lightgreen, 0 0 30px lightgreen;
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  }
+}
+
+@keyframes radiateYellow {
+  0% {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 20px yellow, 0 0 30px yellow;
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  }
+}
+
+@keyframes radiateRed {
+  0% {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 20px red, 0 0 30px red;
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  }
+}
+
+#clearButton {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#clearButton:hover {
+  background-color: #45a049; /* Darker green */
+}
