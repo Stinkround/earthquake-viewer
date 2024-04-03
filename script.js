@@ -39,7 +39,7 @@ function addData(earthquake) {
     }
 
     newDiv.innerHTML = `
-  <h2 style="text-decoration: underline; cursor: pointer;" onclick="window.open('/map/map.html?id=${
+  <h2 style="text-decoration: underline; cursor: pointer;" onclick="window.open('/earthquake-viewer/map/map.html?id=${
     earthquake.id
   }')">Earthquake</h2>
   <h5>${earthquake.id}</h5>
